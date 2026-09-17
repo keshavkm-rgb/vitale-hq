@@ -1,0 +1,15 @@
+{
+  "name": "Vitale HQ · Preston North End",
+  "short_name": "Vitale HQ",
+  "description": "Lorenzo Vitale's Preston North End FC26 career dashboard",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#061a36",
+  "theme_color": "#061a36",
+  "icons": [
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

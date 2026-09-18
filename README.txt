@@ -1,10 +1,12 @@
-VITALE HQ v25 · PWA
+VITALE HQ v26 · PWA
 Preston North End · Lorenzo Vitale · 2030/31
 
-- Champions League table updated from FC26 Matchday 2 screenshots.
-- Preston: 2 played, 1 win, 1 loss, 5-3, 3 pts, position 15.
-- Ajax 0-3 Preston added to the bundled save; Galarza's confirmed goal recorded.
-- Existing first-launch save bootstrap retained.
-- Service-worker cache bumped to v25.
+FIX: Existing v24/v25 browser data now receives a one-time Champions League
+Matchday 2 table migration. Results, fixtures and player stats are preserved.
 
-Publish this folder with GitHub Pages, then open the HTTPS address in Safari and use Share -> Add to Home Screen.
+CL Matchday 2:
+Preston 15th, P2 W1 D0 L1, GF 5, GA 3, GD +2, 3 pts.
+Ajax 0-3 Preston recorded; Galarza's confirmed goal recorded.
+
+Publish the package contents to GitHub Pages. Open the same GitHub Pages URL
+and refresh. The CL table should update automatically.
